@@ -8,7 +8,7 @@ import Link from "next/link"
 const MyApp = ({ Component, pageProps }) => (
   <Layout>
     <Head>
-      {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Montserrat&display=swap" /> */}
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Montserrat&display=swap" />
     </Head>
     <main>
       <Component {...pageProps} />
