@@ -5,17 +5,24 @@ import Socials from "../components/Socials"
 import Heading from "../components/Heading"
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${process.env.API_HOST}/socials`);
-  const data = await res.json();
+  try {
+    const res = await fetch(`${process.env.API_HOST}/socials`);
+    const data = await res.json();
+    
+    if (!data) {
+      return {
+        notFound: true,
+      }
+    }
   
-  if (!data) {
     return {
-      notFound: true,
+      props: { socials: data },
     }
   }
-
-  return {
-    props: { socials: data },
+  catch {
+    return {
+      props: { socials: null },
+    }
   }
 };
 
