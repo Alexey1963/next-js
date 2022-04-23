@@ -3,7 +3,7 @@ import Image from "next/image"
 import Head from "next/head"
 import youtubeImg from "../public/youtube-logo-png-46020.png"
 import '../styles/globals.scss'
-import Link from "next/link"
+// import Link from "next/link"
 
 const MyApp = ({ Component, pageProps }) => (
   <Layout>

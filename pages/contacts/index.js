@@ -1,5 +1,5 @@
 import Heading from "../../components/Heading"
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import Link from "next/link";
 import Head from "next/head";
 
