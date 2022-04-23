@@ -1,5 +1,5 @@
 // import Heading from "../../components/Heading";
-import ContactInfo from "../../components/contactInfo";
+import ContactInfo from "../../components/ContactInfo";
 import Head from "next/head";
 
 export const getServerSideProps = async (context) => {
