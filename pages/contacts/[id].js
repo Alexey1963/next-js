@@ -1,4 +1,4 @@
-import Heading from "../../components/Heading";
+// import Heading from "../../components/Heading";
 import ContactInfo from "../../components/contactInfo";
 import Head from "next/head";
 
